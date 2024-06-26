@@ -22,8 +22,8 @@ title: Anurag Pandey
 email: anurag@anuragpandey.net
 description: >- # this means to ignore newlines until "baseurl:"
   Discoverer, Dreamer, Doer
-baseurl: "/anuragpandey" # the subpath of your site, e.g. /blog
-url: "https://www.anuragpandey.net/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "anurag-pandey.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ap_anuragpandey
 github_username:  anurag-pandey
 
