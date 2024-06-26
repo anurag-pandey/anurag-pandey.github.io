@@ -6,7 +6,7 @@ layout: page
 
 ---
 
-👋🏽 I'm Anurag Pandey, and this is my homepage. I document my learnings, thoughts and experiences on my [blog]({% link blog.md %}).
+👋🏽 I'm Anurag, and this is my homepage. I document my learnings, thoughts and experiences on my [blog]({% link blog.md %}).
 
 ### Currently:
 
