@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-  border-top: 10px solid #191919;
+  border-top: 0px solid #191919;
   border-bottom: 0px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
 
@@ -12,8 +12,8 @@
 
 .site-title {
   @include relative-font-size(2.25);
-  font-weight: 300;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  font-weight: 400;
+  // line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
@@ -21,7 +21,7 @@
 
   &,
   &:visited {
-    color: $text-color;
+    color: $brand-color;
   }
 }
 
