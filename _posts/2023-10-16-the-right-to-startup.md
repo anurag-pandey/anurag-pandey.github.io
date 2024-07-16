@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "The right to startup"
+tags: startups
 ---
 One of the stories from my ninth-class book that is tattooed on my brain is called “दुःख का अधिकार” which translates to “The right to grieve”.
 
