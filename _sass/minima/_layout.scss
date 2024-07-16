@@ -5,6 +5,7 @@
   border-top: 0px solid #191919;
   border-bottom: 0px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
+  padding-top: 15px; //Adding padding to the header because I removed the borders.
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -28,6 +29,7 @@
 .site-nav {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
+  
 
   .nav-trigger {
       display: none;
@@ -49,7 +51,7 @@
 
   @include media-query($on-palm) {
     position: absolute;
-    top: 9px;
+    top: 25px;
     right: $spacing-unit / 2;
     background-color: $background-color;
     border: 1px solid $grey-color-light;
