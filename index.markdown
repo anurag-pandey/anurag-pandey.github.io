@@ -22,3 +22,7 @@ I document my learnings, thoughts and experiences on my [blog]({% link blog.md %
 5. Traded oil at [Futures First](https://www.linkedin.com/company/futures-first-info--services-pvt--ltd-/) (2020)
 6. Sold 3D bioprinters at [BioP India](https://www.linkedin.com/company/biop-india/) (2018)
 7. Made friends at [BITS](https://www.linkedin.com/school/birla-institute-of-technology-and-science-pilani/) (2017-2020)
+<br>
+<br>
+
+I am mostly active on [𝕏](https://x.com/ap_anuragpandey) and reply quickly on my [email](mailto:anurag@anuragpandey.net).
