@@ -108,6 +108,7 @@
 .post-card:not(:has(.post-card-excerpt)) .post-card-title {
   font-size: 16px; // Match the size of .post-card-excerpt
   color: #cccccc;  // Optional: Match the color of the excerpt
+  padding-bottom: 15px; /* Ensure consistent spacing for short-form content */
 }
 
 /* Disable hover effects for short-form content */
