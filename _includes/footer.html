@@ -1,47 +1,16 @@
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
-  <div class="wrapper">
-
-    <!-- <h2 class="footer-heading">{{ site.title | escape }}</h2> -->
-
-    <div class="footer-col-wrapper">
-      <div>
-        <p style="text-align: center;"> © Anurag Pandey</p>
-      </div>
-      <div class="footer-col-wrapper">
-        <ul class="contact-links-container">
-          <a href="mailto:anurag@anuragpandey.net" title="Email"><i class="fa-solid fa-square-envelope"></i></a>
-          <a href="https://x.com/ap_anuragpandey" title="X (Twitter)"><i class="fa-brands fa-square-x-twitter"></i></a>
-        </ul>
-      </div>
-      <!-- The following code is from the default footer. I am not using any of it and I am using a basic footer. -->
-
-      
-      <!-- <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div> -->
-
-      <!-- <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div> -->
-
-      <!-- <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p> 
-      </div> -->
+  <div class="wrapper" style="text-align: center;">
+    <p>&copy; Anurag Pandey</p>
+    <div class="social-media-list" style="display: inline-flex; gap: 16px;">
+      {%- if site.github_username -%}
+      <a href="https://github.com/{{ site.github_username | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>
+      {%- endif -%}
+      {%- if site.twitter_username -%}
+      <a href="https://x.com/{{ site.twitter_username | cgi_escape | escape }}"><svg class="svg-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+      {%- endif -%}
     </div>
-
   </div>
 
 </footer>

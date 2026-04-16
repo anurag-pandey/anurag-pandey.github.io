@@ -2,6 +2,10 @@
 
 ## About this project
 This is a personal blog/website built with Jekyll and hosted on GitHub Pages.
+The site is live at anuragpandey.net.
+
+## Task Roadmap
+See `TASKS.md` for the full list of planned improvements. Tasks are grouped by tier (quick wins -> professional brand -> digital garden -> audience building). Pick up tasks by referencing their ID (e.g. "Task 1.2").
 
 ## Rules for Claude Code
 
