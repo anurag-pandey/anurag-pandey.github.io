@@ -20,7 +20,7 @@
 
 title: Anurag Pandey
 email: anurag@anuragpandey.net
-description: "Anurag Pandey's Internet Corner"
+description: "Anurag Pandey's personal blog"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://anuragpandey.net"
 twitter_username: ap_anuragpandey
@@ -31,6 +31,7 @@ author: Anurag Pandey
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 include:
   - assets/images/favicon
