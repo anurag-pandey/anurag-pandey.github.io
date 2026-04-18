@@ -11,7 +11,7 @@ Status: `[ ]` = todo, `[x]` = done, `[-]` = skipped
 - **File:** `_config.yml`
 - **What:** Add a meaningful `description` value (currently blank). This shows up in Google search results, social media previews (via jekyll-seo-tag), and RSS feed metadata.
 - **Example:** `description: "Anurag Pandey's personal site — writing about startups, engineering, investing, and building things."`
-- **Status:** `[ ]`
+- **Status:** `[x]` (Done — set to "Anurag Pandey's personal blog")
 
 ### Task 1.2: Add jekyll-sitemap plugin
 - **File:** `_config.yml`, `Gemfile`
@@ -22,7 +22,7 @@ Status: `[ ]` = todo, `[x]` = done, `[-]` = skipped
   3. Run `bundle install`
   4. Verify sitemap generates at `/sitemap.xml` with `bundle exec jekyll build`
 - **Note:** GitHub Pages natively supports jekyll-sitemap, so it will work without any extra config once deployed.
-- **Status:** `[ ]`
+- **Status:** `[x]` (Done)
 
 ### Task 1.3: Enable analytics (privacy-friendly)
 - **File:** `_includes/head.html`
@@ -155,6 +155,16 @@ Status: `[ ]` = todo, `[x]` = done, `[-]` = skipped
 - **File:** `_config.yml`
 - **What:** CLAUDE.md, TASKS.md, and README.md should not appear on the live website. Add them to the `exclude:` list in `_config.yml`.
 - **Status:** `[x]` (Done)
+
+### Task H.3: Fix Ruby environment and gem vulnerabilities
+- **What:** The local Ruby setup is outdated and has known vulnerabilities. Fix all of the following:
+  1. **Ruby version:** Currently on 2.6.10 (EOL). Upgrade to Ruby 3.x via `rbenv` or `ruby-install`.
+  2. **RubyGems version:** Currently 3.0.3.1 with a known `required_ruby_version` bug. Upgrade via `gem update --system`.
+  3. **Dependabot alert #9 (high):** `google-protobuf` has a potential Denial of Service vulnerability. Update the gem or its parent dependency.
+  4. **Sass deprecation warnings:** Minima theme uses `/` for division (deprecated in Dart Sass 2.0). Investigate if a Minima version bump fixes this.
+  5. Run `bundle audit` (install `bundler-audit` gem first) to check for any additional vulnerabilities and fix them.
+- **Goal:** Zero known vulnerabilities, no deprecation warnings, modern Ruby version.
+- **Status:** `[ ]`
 
 ### Task H.2: Clean up _config.yml
 - **File:** `_config.yml`
