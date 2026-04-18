@@ -164,7 +164,7 @@ Status: `[ ]` = todo, `[x]` = done, `[-]` = skipped
   4. **Sass deprecation warnings:** Minima theme uses `/` for division (deprecated in Dart Sass 2.0). Investigate if a Minima version bump fixes this.
   5. Run `bundle audit` (install `bundler-audit` gem first) to check for any additional vulnerabilities and fix them.
 - **Goal:** Zero known vulnerabilities, no deprecation warnings, modern Ruby version.
-- **Status:** `[ ]`
+- **Status:** `[x]` (Done — Ruby upgraded to 3.3.11 via rbenv, all gems updated, google-protobuf vuln fixed, SCSS compiled to plain CSS eliminating all Sass deprecation warnings, bundler-audit reports zero vulnerabilities)
 
 ### Task H.2: Clean up _config.yml
 - **File:** `_config.yml`
